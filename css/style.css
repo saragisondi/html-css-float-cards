@@ -27,21 +27,30 @@ header h1{
   margin-bottom: 50px;
 }
 
-/*SPECIFIC*/
-main .container-text{
-  background-color: brown;
-  text-align: center;
-  width: 60%;
-  height: 50%;
-  margin-left: 20%
+
+.container{
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
+
+main .container-text{
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+/*SPECIFIC*/
+
 div .container-cards{
-margin-top: 5%;
-background-color: black;
-max-width: 35%;
-max-height: 5%;
-text-align: left;
+  background-color: black;
+  text-align: left;
+  float: left;
+  width: calc(90% / 3);
+  margin: 15px;
+  box-shadow: 5px 5px 5px #dedede;
 }
 
 div .container-cards ul{
@@ -67,10 +76,19 @@ div .container-cards ul li:nth-child(2){
 
 div .container-cards ul li:last-child{
   font-size: 0.8rem;
-  
 }
 
 div .container-cards ul li a{
   text-decoration: none;
   color: lightskyblue;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p{
+  margin-bottom: 5%;
 }
