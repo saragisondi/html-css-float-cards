@@ -26,3 +26,13 @@ header h1{
   margin-bottom: 50px;
 }
 
+main .container{
+  background-color: brown;
+  width: 60%;
+  height: 50%;
+  margin-left: 20%
+}
+
+
+
+}
