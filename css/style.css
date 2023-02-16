@@ -14,10 +14,11 @@ main{
 }
 
 img{
-  width: 100%;
+  max-width: 100%;
+  width: 80px;
+  vertical-align: middle;
 }
 
-/*SPECIFIC*/
 header h1{
   color: rgb(231, 2, 112);
   font-weight: lighter;
@@ -26,13 +27,50 @@ header h1{
   margin-bottom: 50px;
 }
 
-main .container{
+/*SPECIFIC*/
+main .container-text{
   background-color: brown;
+  text-align: center;
   width: 60%;
   height: 50%;
   margin-left: 20%
 }
 
+div .container-cards{
+margin-top: 5%;
+background-color: black;
+max-width: 35%;
+max-height: 5%;
+text-align: left;
+}
 
+div .container-cards ul{
+  color: white;
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+  text-align: left;
+}
 
+li{
+  margin-bottom:5px;
+  margin-left: 10px;
+}
+
+div .container-cards ul li:first-child{
+  font-family: 'Fredoka One', cursive;
+}
+
+div .container-cards ul li:nth-child(2){
+  font-size: 0.8rem;
+}
+
+div .container-cards ul li:last-child{
+  font-size: 0.8rem;
+  
+}
+
+div .container-cards ul li a{
+  text-decoration: none;
+  color: lightskyblue;
 }
