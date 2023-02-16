@@ -5,8 +5,12 @@
   box-sizing: border-box;
 }
 
-body{
+header{
   font-family: 'Fredoka One', cursive;
+}
+
+main{
+  font-family: 'Fredoka', sans-serif;
 }
 
 img{
@@ -14,3 +18,11 @@ img{
 }
 
 /*SPECIFIC*/
+header h1{
+  color: rgb(231, 2, 112);
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
